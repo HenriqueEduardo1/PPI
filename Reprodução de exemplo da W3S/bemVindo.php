@@ -6,9 +6,9 @@
 </head>
 <body>
     <?php 
+        echo "E-mail: " . $_POST["email"];
+        echo "<br>"; 
         echo "Senha: " . $_POST["senha"];
-        echo "<br>";
-        echo "E-mail: " . $_POST["email"]; 
     ?>
 </body>
 </html>

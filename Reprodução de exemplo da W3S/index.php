@@ -25,7 +25,7 @@
     <title>Login</title>
 </head>
 <body>
-    <form action='bemVindo.php' method='post' class='modelo-form'>
+    <form action='restrito.php' method='post' class='modelo-form'>
         <div class="container">
             <label for="email"><b>Email</b></label><br>
             <input type='text' name='email' placeholder='E-mail'><br>
@@ -34,5 +34,14 @@
             <input type='submit'>
         </div>
     </form>
+    <main>
+        <P>
+            <?PHP
+                if(isset($_GET["msg"])){
+                    echo $_GET["msg"];
+                }
+            ?>
+        </P>
+    </main>
 </body>
 </html>
