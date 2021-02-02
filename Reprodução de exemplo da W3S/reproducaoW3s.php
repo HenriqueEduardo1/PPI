@@ -14,7 +14,7 @@
             display: grid;
             place-items: center;
         }
-        input[type="submit"]{
+        input[type=submit]{
             width: 100%;
         }
         input:not(:last-child){
