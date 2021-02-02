@@ -29,10 +29,8 @@
         <div class="container">
             <label for="email"><b>Email</b></label><br>
             <input type='text' name='email' placeholder='E-mail'><br>
-
             <label for="senha"><b>Senha</b></label><br>
             <input type='password' name='senha' placeholder='password'><br>
-
             <input type='submit'>
         </div>
     </form>
