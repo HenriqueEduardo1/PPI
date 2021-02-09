@@ -1,0 +1,16 @@
+.container{
+    padding: 20px;
+}
+.modelo-form{
+    background-color: #fefefe;
+    margin: 5% auto 15% auto;
+    border: 1px solid #888;
+    width: 80%;
+}
+body{
+    display: grid;
+    place-items: center;
+}
+input[type=submit]{
+    width: 100%;
+}

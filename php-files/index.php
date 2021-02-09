@@ -2,6 +2,7 @@
 <html>
     <head>
         <meta charset="UTF-8">
+        <link rel="stylesheet" href="css.css">
         <title>Arquivos em PHP</title>
     </head>
     <body>
@@ -9,20 +10,20 @@
         <main>
             <section>
                 <h2>Cadastro</h2>
-                <form action="bd/salvar-usuario.php" method="post">
-                    <div>
-                        <label for="txtNome">Nome</label>
-                        <input type="text" id="txtNome" name="nome">
+                <form action="bd/salvar-usuario.php" method="post" class='modelo-form'>
+                    <div class="container">
+                        <label for="txtNome">Nome</label><br>
+                        <input type="text" id="txtNome" name="nome" placeholder="Nome">
                     </div>
-                    <div>
-                        <label for="txtEmail">E-mail</label>
-                        <input type="email" id="txtEmail" name="email">
+                    <div class="container">
+                        <label for="txtEmail">E-mail</label><br>
+                        <input type="email" id="txtEmail" name="email" placeholder="E-mail">
                     </div>
-                    <div>
-                        <label for="txtSenha">Senha</label>
-                        <input type="password" id="txtSenha" name="senha">
+                    <div class="container">
+                        <label for="txtSenha">Senha</label><br>
+                        <input type="password" id="txtSenha" name="senha" placeholder="Password">
                     </div>
-                    <div>
+                    <div class="container">
                         <input type="submit" value="cadastrar">  
                     </div>            
                 </form>
