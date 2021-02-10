@@ -10,20 +10,20 @@
         <main>
             <section>
                 <h2>Cadastro</h2>
-                <form action="bd/salvar-usuario.php" method="post" class='modelo-form'>
-                    <div class="container">
+                <form action="bd/salvar-usuario.php" method="post">
+                    <div>
                         <label for="txtNome">Nome</label><br>
                         <input type="text" id="txtNome" name="nome" placeholder="Nome">
                     </div>
-                    <div class="container">
+                    <div>
                         <label for="txtEmail">E-mail</label><br>
                         <input type="email" id="txtEmail" name="email" placeholder="E-mail">
                     </div>
-                    <div class="container">
+                    <div>
                         <label for="txtSenha">Senha</label><br>
                         <input type="password" id="txtSenha" name="senha" placeholder="Password">
                     </div>
-                    <div class="container">
+                    <div>
                         <input type="submit" value="cadastrar">  
                     </div>            
                 </form>

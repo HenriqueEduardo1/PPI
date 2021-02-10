@@ -1,16 +1,25 @@
-.container{
-    padding: 20px;
-}
-.modelo-form{
-    background-color: #fefefe;
-    margin: 5% auto 15% auto;
-    border: 1px solid #888;
-    width: 80%;
-}
-body{
+body, section, footer{
     display: grid;
     place-items: center;
 }
+body{
+    width: 1000px;
+    margin: 0 auto;
+    background:#CCC;
+}
+section{
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 15px;
+    border-radius: 5px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+div{
+    margin-bottom: 20px;
+}
 input[type=submit]{
     width: 100%;
+}
+p{
+    margin: 1px;
 }
