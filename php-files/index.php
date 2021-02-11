@@ -8,7 +8,7 @@
     <body>
         <h1>Arquivos em PHP</h1>
         <main>
-            <section>
+            <section class="i">
                 <h2>Cadastro</h2>
                 <form action="bd/salvar-usuario.php" method="post">
                     <div>
@@ -28,7 +28,7 @@
                     </div>            
                 </form>
             </section>
-            <section>
+            <section class="i">
                 <h2>Itens</h2>
                 <ol>
                     <?php

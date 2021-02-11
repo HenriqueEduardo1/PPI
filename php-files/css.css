@@ -3,16 +3,10 @@ body, section, footer{
     place-items: center;
 }
 body{
+    color: white;
     width: 1000px;
     margin: 0 auto;
-    background:#CCC;
-}
-section{
-    background-color: rgb(255, 255, 255);
-    margin-bottom: 15px;
-    border-radius: 5px;
-    margin-left: 5%;
-    margin-right: 5%;
+    background:#333;
 }
 div{
     margin-bottom: 20px;
@@ -22,4 +16,18 @@ input[type=submit]{
 }
 p{
     margin: 1px;
+}
+footer{
+    margin-top: 20px;
+}
+.i{
+    width: 300px;
+    height: 300px;
+    float: left;
+    background: #3a7aa5;
+    margin: 10px;
+    padding: 90px;
+    display: grid;
+    place-items: center;
+    border-radius: 25px;
 }
