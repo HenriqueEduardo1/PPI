@@ -3,6 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <link rel="stylesheet" href="css.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <title>Arquivos em PHP</title>
     </head>
     <body>
@@ -39,7 +40,9 @@
                         <li>
                             <?= $usuario; ?>
                             <a href="bd/deletar-usuario.php?id=<?= $index; ?>">
-                                Deletar
+                                <span class="material-icons">
+                                    delete_outline
+                                </span>
                             </a>
                         </li>
                         <?php
