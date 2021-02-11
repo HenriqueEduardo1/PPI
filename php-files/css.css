@@ -1,4 +1,4 @@
-body, section, footer{
+body, footer{
     display: grid;
     place-items: center;
 }
