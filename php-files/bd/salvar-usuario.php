@@ -16,3 +16,6 @@
         fwrite($banco, $_POST["nome"] . "," . $_POST["email"] . "," . $_POST["senha"] . "\n");
         fclose($banco);
     }
+    
+    header("Location: ../index.php");
+?>

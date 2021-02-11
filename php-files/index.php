@@ -34,10 +34,13 @@
                     <?php
                     include_once 'bd/listar-usuario.php';
                     $usuarios = getUsuarios();
-                    foreach ($usuarios as $usuario){
+                    foreach ($usuarios as $index => $usuario){
                         ?>
                         <li>
                             <?= $usuario; ?>
+                            <a href="bd/deletar-usuario.php?id=<?= $index; ?>">
+                                Deletar
+                            </a>
                         </li>
                         <?php
                     }
