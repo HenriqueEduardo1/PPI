@@ -21,13 +21,12 @@ footer{
     margin-top: 20px;
 }
 .i{
-    width: 300px;
-    height: 300px;
+    width: 500px;
+    height: 500px;
     float: left;
     background: #3a7aa5;
     margin: 10px;
-    padding: 90px;
-    display: grid;
+    padding: 10px;
     place-items: center;
     border-radius: 25px;
 }
