@@ -2,31 +2,69 @@ body, footer{
     display: grid;
     place-items: center;
 }
+
 body{
     color: white;
     width: 100%;
     margin: 0 auto;
-    background:#333;
+    background:#555050;
+    font-family: sans-serif;
 }
-div{
-    margin-bottom: 20px;
+
+p{ margin: 1px; }
+h1{ font-size: 40px; }
+footer{ margin-top: 25px; }
+ol{ 
+    font-size: 13px;
 }
-input[type=submit]{
-    width: 100%;
-}
-p{
-    margin: 1px;
-}
-footer{
-    margin-top: 20px;
-}
+
 .i{
-    width: 500px;
-    height: 500px;
+    width: 450px;
+    height: 450px;
     float: left;
-    background: #3a7aa5;
+    background: #b1abab;
     margin: 10px;
-    padding: 10px;
-    place-items: center;
+    padding: 0;
     border-radius: 25px;
+}
+
+.i h2{
+    display: grid;
+    place-items: center;
+    font-size: 30px;
+}
+.p-box{
+    display: grid;
+    place-items: center;
+    margin-top: 80px;
+}
+.box{
+    font-size: 15px;
+    margin: 3px;
+    border-bottom: 2px solid #827c7c;
+}
+.box span{
+    width: 25px;
+    float: left;
+    text-align: center;
+}
+.box input{
+    border: none;
+    outline: none;
+    background: none;
+    color: white;
+    font-size: 15px;
+    width: 60%;
+    float: left;
+    margin: 0 10px;
+}
+.btn{
+    width: 50%;
+    background: none;
+    border: 2px solid #827c7c;
+    color: white;
+    padding: 5px;
+    font-size: 15px;
+    cursor: pointer;
+    margin: 12px 0;
 }

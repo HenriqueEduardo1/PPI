@@ -11,22 +11,25 @@
         <main>
             <section class="i">
                 <h2>Cadastro</h2>
-                <form action="bd/salvar-usuario.php" method="post">
-                    <div>
-                        <label for="txtNome">Nome</label><br>
+                <form action="bd/salvar-usuario.php" method="post" class="p-box">
+                    <div class="box">
+                        <label for="txtNome"></label><br>
+                        <span class="material-icons"> account_circle</span>
                         <input type="text" id="txtNome" name="nome" placeholder="Nome">
                     </div>
-                    <div>
-                        <label for="txtEmail">E-mail</label><br>
+                    <div class="box">
+                        <label for="txtEmail"></label><br>
+                        <span class="material-icons"> mail </span>
                         <input type="email" id="txtEmail" name="email" placeholder="E-mail">
                     </div>
-                    <div>
-                        <label for="txtSenha">Senha</label><br>
+                    <div class="box">
+                        <label for="txtSenha"></label><br>
+                        <span class="material-icons"> vpn_key </span>
                         <input type="password" id="txtSenha" name="senha" placeholder="Password">
                     </div>
-                    <div>
-                        <input type="submit" value="cadastrar">  
-                    </div>            
+                    
+                    <input class="btn" type="submit" value="cadastrar">  
+
                 </form>
             </section>
             <section class="i">
@@ -40,9 +43,7 @@
                         <li>
                             <?= $usuario; ?>
                             <a href="bd/deletar-usuario.php?id=<?= $index; ?>">
-                                <span class="material-icons">
-                                    delete_outline
-                                </span>
+                                <span class="material-icons"> delete_outline </span>
                             </a>
                         </li>
                         <?php
