@@ -14,12 +14,12 @@ body{
 p{ margin: 1px; }
 h1{ font-size: 40px; }
 footer{ margin-top: 25px; }
-ol{ 
-    font-size: 13px;
-}
+ol{ font-size: 13px; }
+a{ color: #827c7c; }
+a:hover{ color: #555050; }
 
 .i{
-    width: 450px;
+    width: 550px;
     height: 450px;
     float: left;
     background: #b1abab;

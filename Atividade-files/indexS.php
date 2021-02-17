@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <link rel="stylesheet" href="css/css.css">
+        <link rel="stylesheet" href="css/cssS.css">
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <title>Arquivos em PHP</title>
     </head>
@@ -11,7 +11,7 @@
         <main>
             <section class="i">
                 <h2>Cadastro</h2>
-                <form action="bd/salvar-usuario.php" method="post" class="p-box">
+                <form action="bd/alterar-usuario.php?id=<?= $_GET["id"] ?>" method="post" class="p-box">
                     <div class="box">
                         <label for="txtNome"></label><br>
                         <span class="material-icons"> account_circle</span>
@@ -27,9 +27,8 @@
                         <span class="material-icons"> vpn_key </span>
                         <input type="password" id="txtSenha" name="senha" placeholder="Password">
                     </div>
-                    
-                    <input class="btn" type="submit" value="Salvar">  
-
+                    <a href="index.php" class="btn">Cancelar</a>
+                    <input type="submit" value="Alterar" class="btn">
                 </form>
             </section>
             <section class="i">
@@ -42,12 +41,6 @@
                         ?>
                         <li>
                             <?= $usuario; ?>
-                            <a href="bd/deletar-usuario.php?id=<?= $index; ?>">
-                                <span class="material-icons"> delete_outline </span>
-                            </a>
-                            <a href="indexS.php?id=<?= $index; ?>">
-                                <span class="material-icons"> create </span>
-                            </a>
                         </li>
                         <?php
                     }
