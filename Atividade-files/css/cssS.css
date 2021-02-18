@@ -38,9 +38,6 @@ a:hover{ color: #555050; }
     place-items: center;
     margin-top: 80px;
 }
-.p-box > input{
-    width: 100%;
-}
 .box{
     font-size: 15px;
     margin: 3px;
