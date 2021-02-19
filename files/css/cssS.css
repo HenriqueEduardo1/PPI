@@ -1,4 +1,4 @@
-body, footer{
+.btns, body, footer{
     display: grid;
     place-items: center;
 }
@@ -7,7 +7,7 @@ body{
     color: white;
     width: 100%;
     margin: 0 auto;
-    background:#555050;
+    background-image: linear-gradient(to bottom right,#4B0082,#008080);
     font-family: sans-serif;
 }
 
@@ -15,14 +15,15 @@ p{ margin: 1px; }
 h1{ font-size: 40px; }
 footer{ margin-top: 25px; }
 ol{ font-size: 13px; }
-a{ color: #827c7c; }
-a:hover{ color: #555050; }
+a{ color: white; }
+a:hover{ color: white; }
 
 .i{
     width: 550px;
     height: 450px;
     float: left;
-    background: #b1abab;
+    background: none;
+    border: 4px solid #F0F8FF;
     margin: 10px;
     padding: 0;
     border-radius: 25px;
@@ -41,7 +42,7 @@ a:hover{ color: #555050; }
 .box{
     font-size: 15px;
     margin: 3px;
-    border-bottom: 2px solid #827c7c;
+    border-bottom: 2px solid #F0F8FF;
 }
 .box span{
     width: 25px;
@@ -59,12 +60,13 @@ a:hover{ color: #555050; }
     margin: 0 10px;
 }
 .btn{
-    width: 50%;
+    width: 40%;
     background: none;
-    border: 2px solid #827c7c;
+    border: 2px solid #F0F8FF;
     color: white;
     padding: 5px;
     font-size: 15px;
     cursor: pointer;
-    margin: 12px 0;
+    margin: 10px 0;
+    text-align: center;
 }
