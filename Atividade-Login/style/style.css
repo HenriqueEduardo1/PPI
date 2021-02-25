@@ -4,9 +4,11 @@ body{
     font-family: sans-serif;
     background: #3a3458;
 }
-main > p{
+p{
     text-align: center;
     color:#191919;
+    font-size: 20px;
+    background: #5e5685;
 }
 .caixa{
     width: 300px;
