@@ -32,8 +32,8 @@ if ($usuario->getEmail() == $_POST["email"]) {
     <h2>Página restrita</h2>
 
     <?php
-    echo "Você logou com o e-mail: " . $_POST["email"];
-    echo " e com a senha: " . $_POST["senha"] . "<br>";
+    echo "Você logou com o e-mail: " . $usuario->getEmail();
+    echo " e com a senha: " . $usuario->getSenha() . "<br>";
     ?>
 
     <a href="index.php">Voltar</a>

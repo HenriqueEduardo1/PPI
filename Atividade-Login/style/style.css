@@ -3,12 +3,21 @@ body{
     padding: 0;
     font-family: sans-serif;
     background: #3a3458;
+    display: block;
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 p{
     text-align: center;
     color:#191919;
     font-size: 20px;
     background: #5e5685;
+    padding: 10px 6px;
+    width: 250px;
+    border-radius: 24px;
 }
 .caixa{
     width: 300px;

@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Login Animado</title>
+    <title>Login</title>
     <link rel="stylesheet" href="style/style.css">
 </head>
 
@@ -16,13 +16,13 @@
     </form>
 </body>
 <main>
-    <P>
-        <?PHP
-        if (isset($_GET["msg"])) {
-            echo $_GET["msg"];
-        }
-        ?>
-    </P>
+    <?PHP
+    if (isset($_GET["msg"])) {
+    ?>
+        <p><?= $_GET["msg"]; ?></p>
+    <?php
+    }
+    ?>
 </main>
 
 </html>
