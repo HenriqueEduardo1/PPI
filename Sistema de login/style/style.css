@@ -1,0 +1,85 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: #3a3458;
+}
+.caixa{
+    width: 300px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #191919;
+    text-align: center;
+    border-radius: 25px;
+    box-shadow: -15px 15px 5px  #5e5685;
+}
+.caixa h1{
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.caixa input[type = "text"], .caixa input[type = "password"], .caixa input[type = "email"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #4e4da5;
+    padding: 14px 10px;
+    width: 220px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+}
+.caixa input[type = "text"]:focus{
+    border-left-width: 50px;
+    border-color: #449264;
+}
+.caixa input[type = "email"]:focus{
+    border-right-width: 50px;
+    border-color: #449264;
+}
+.caixa input[type = "password"]:focus{
+    border-left-width: 50px;
+    border-color: #449264;
+}
+.caixa input[type = "submit"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #449264;
+    padding: 14px 40px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+.caixa input[type = "submit"]:hover{
+    background: #449264;
+}
+.bloco1, .bloco2{
+    left: 0;
+    top: 0;
+    float: right;
+    background: #5e5685;
+}
+.bloco1{
+    width: 300px;
+    height: 300px;
+    float: left;
+    
+    border-radius: 0px 0px 300px 0px;
+}
+.bloco2{
+    width: 200px;
+    height: 200px;
+    float: right;
+    border-radius: 0px 0px 0px 200px;
+}
